@@ -1,0 +1,63 @@
+{
+	/* 
+	   
+	   ***********************
+	   Teleport Pad
+	   ***********************
+	*/
+	"enableTeleportPad": true,
+	"enableMessageOnSneak": true,
+	"enableMessageOnTeleport": false,
+	/* 
+	   
+	   ***********************
+	   Right-click Block Teleport Method
+	   - allows player to right-click on a placed portal block
+	   to teleport to the dest dimension centered around 
+	   same player location 
+	   - the player will be teleported to existing portal
+	   block, if found, or a new block will be placed under foot
+	   - standard search range in dest dim is 9 chunks centered
+	   around player's position
+	   - extended search range in dest dim is 25 chunks centered
+	   around player's position
+	   ***********************
+	*/
+	"enableExtendedSearchRange": true,
+	/* 
+	   
+	   ***********************
+	   Hunting Dim Mobs
+	    - settings for mob attributes
+	   ***********************
+	*/
+	"zombieMaxHealth": 40.0,
+	"zombieAttackDamageBonus": 6.0,
+	"zombieArmorBonus": 8.0,
+	"zombieMovementBonus": 0.05,
+	"piglinMaxHealth": 40.0,
+	"piglinAttackDamageBonus": 20.0,
+	"piglinArmorBonus": 20.0,
+	"piglinMovementBonus": 0.05,
+	"piglinBruteMaxHealth": 60.0,
+	"piglinBruteAttackDamageBonus": 20.0,
+	"piglinBruteArmorBonus": 20.0,
+	"piglinBruteMovementBonus": 0.075,
+	"witherSkeletonMaxHealth": 80.0,
+	"witherSkeletonDamageBonus": 20.0,
+	"witherSkeletonArmorBonus": 20.0,
+	"witherSkeletonMovementBonus": 0.085,
+	/* 
+	   
+	   ***********************
+	   Hunting Dim Mobs
+	    - settings for armor/weapon
+	   ***********************
+	*/
+	"enableZombieGear": true,
+	"enablePiglinGear": true,
+	"enablePiglinBruteGear": true,
+	"enableWitherSkeletonGear": true,
+	"enableVexGear": true,
+	"gearDropChannce": 0.1
+}

@@ -10,5 +10,11 @@
     "name": "MarceX",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e18acdb6-3b78-35f7-86d8-1320078ed48c",
+    "name": "Reder",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

@@ -1,9 +1,22 @@
-[02:53:03] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.0
-[02:53:04] [main/WARN]: Warnings were found!
+[03:41:00] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.0
+[03:41:00] [ForkJoinPool-1-worker-1/WARN]: Mod travelersbackpack uses the version fabric-1.21-10.0.4 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[03:41:00] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.0.7 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[02:53:04] [main/INFO]: Loading 53 mods:
+[03:41:00] [main/INFO]: Loading 72 mods:
+	- armored-elytra 1.0.1
+	- cardinal-components 6.1.1
+	   |-- cardinal-components-base 6.1.1
+	   |-- cardinal-components-block 6.1.1
+	   |-- cardinal-components-chunk 6.1.1
+	   |-- cardinal-components-entity 6.1.1
+	   |-- cardinal-components-item 6.1.1
+	   |-- cardinal-components-level 6.1.1
+	   |-- cardinal-components-scoreboard 6.1.1
+	   \-- cardinal-components-world 6.1.1
 	- carryon 2.2.1
+	- cloth-config 15.0.128
+	   \-- cloth-basic-math 0.6.1
 	- fabric-api 0.100.8+1.21
 	   |-- fabric-api-base 0.4.42+6573ed8cd1
 	   |-- fabric-api-lookup-api-v1 1.6.67+b5597344d1
@@ -58,8 +71,13 @@
 	- forgeconfigapiport 21.0.7
 	   |-- com_electronwill_night-config_core 3.8.0
 	   \-- com_electronwill_night-config_toml 3.8.0
+	- glitchcore 2.0.0.2
+	   \-- net_jodah_typetools 0.6.3
+	- hopobettermineshaft 1.2.6
 	- java 21
 	- minecraft 1.21
+	- mining_dims 1.8.0
+	   \-- blue_endless_jankson 1.2.3
 	- mr_tidal_towns 1.3.2
 	- nullscape 1.2.7
 	- puzzleslib 21.0.18
@@ -67,42 +85,483 @@
 	- simple_backpack 1.6.8
 	   \-- blue_endless_jankson 1.2.3
 	- structory 1.3.5
+	- terrablender 4.0.0.1
 	- tradingpost 21.0.1
-[02:53:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MSP/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[02:53:04] [main/INFO]: Compatibility level set to JAVA_21
-[02:53:04] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:53:04] [main/WARN]: Reference map 'tradingpost.fabric.refmap.json' for tradingpost.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:53:05] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
-[02:53:12] [main/INFO]: Constructing common components for puzzleslib:main
-[02:53:12] [main/OFF]: simple_backpack config settings json5 found
-[02:53:12] [main/INFO]: Constructing common components for tradingpost:main
-[02:53:12] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:53:15] [main/INFO]: Loaded 1294 recipes
-[02:53:15] [main/INFO]: Loaded 1401 advancements
-[02:53:15] [main/INFO]: Applied 0 biome modifications to 0 of 67 new biomes in 1.621 ms
-[02:53:15] [Server thread/INFO]: Dispatching loading event for config at tradingpost-server.toml
-[02:53:15] [Server thread/INFO]: Starting minecraft server version 1.21
-[02:53:15] [Server thread/INFO]: Loading properties
-[02:53:15] [Server thread/INFO]: Default game type: SURVIVAL
-[02:53:15] [Server thread/INFO]: Generating keypair
-[02:53:15] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:53:16] [Server thread/INFO]: Using epoll channel type
-[02:53:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:53:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:53:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:53:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:53:16] [Server thread/INFO]: Preparing level "world"
-[02:53:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:53:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[02:53:19] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[02:53:19] [Server thread/INFO]: Time elapsed: 670 ms
-[02:53:19] [Server thread/INFO]: Done (3.234s)! For help, type "help"
-[02:53:31] [Server thread/INFO]: MarceX[/[0:0:0:0:0:0:0:1%0]:45586] logged in with entity id 31 at (80.92835058977911, 58.0, -8.783072905374354)
-[02:53:31] [Server thread/INFO]: MarceX joined the game
-[02:53:33] [Server thread/INFO]: _jose_diaz_[/[0:0:0:0:0:0:0:1%0]:45596] logged in with entity id 183 at (79.99081574838553, 58.0, -6.187251662720589)
-[02:53:33] [Server thread/INFO]: _jose_diaz_ joined the game
-[02:56:54] [Server thread/INFO]: [_jose_diaz_: Teleported MarceX to _jose_diaz_]
-[02:57:44] [Server thread/INFO]: _jose_diaz_ was killed
-[02:57:44] [Server thread/INFO]: [_jose_diaz_: Killed _jose_diaz_]
-[03:01:09] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
-[03:03:43] [Server thread/INFO]: [MarceX: Gave 4 [Gray Wool] to MarceX]
+	- travelersbackpack fabric-1.21-10.0.4
+	- trumpet-skeleton 1.21-1.2.1
+[03:41:00] [main/WARN]: Found 1 non-fabric mod:
+	- GlitchCore-forge-1.21-2.0.0.2.jar
+[03:41:00] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MSP/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:41:00] [main/INFO]: Compatibility level set to JAVA_21
+[03:41:00] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:41:00] [main/WARN]: Reference map 'tradingpost.fabric.refmap.json' for tradingpost.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[03:41:01] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[03:41:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[03:41:09] [main/OFF]: mining_dims config settings json5 found
+[03:41:09] [main/INFO]: Constructing common components for puzzleslib:main
+[03:41:09] [main/OFF]: simple_backpack config settings json5 found
+[03:41:09] [main/INFO]: Constructing common components for tradingpost:main
+[03:41:10] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for minecraft:water 81000 with the ID 0
+[03:41:10] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for minecraft:lava 81000 with the ID 1
+[03:41:10] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for travelersbackpack:potion_still 27000 with the ID 2
+[03:41:10] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:milk for travelersbackpack:milk_still 81000 with the ID 3
+[03:41:10] [main/INFO]: Loaded configuration file "./config/trumpet-skeleton.properties"
+[03:41:10] [main/INFO]: Initializing
+[03:41:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:41:12] [main/INFO]: Loaded 1440 recipes
+[03:41:12] [main/INFO]: Loaded 1528 advancements
+[03:41:13] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[03:41:13] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[03:41:13] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[03:41:13] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[03:41:13] [main/INFO]: Initialized TerraBlender biomes for level stem mining_dims:nethering_dim
+[03:41:13] [main/INFO]: Applied 181 biome modifications to 70 of 70 new biomes in 54.27 ms
+[03:41:13] [Server thread/INFO]: Dispatching loading event for config at tradingpost-server.toml
+[03:41:13] [Server thread/INFO]: Starting minecraft server version 1.21
+[03:41:13] [Server thread/INFO]: Loading properties
+[03:41:13] [Server thread/INFO]: Default game type: SURVIVAL
+[03:41:13] [Server thread/INFO]: Generating keypair
+[03:41:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:41:13] [Server thread/INFO]: Using epoll channel type
+[03:41:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:41:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:41:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:41:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:41:13] [Server thread/INFO]: Preparing level "world"
+[03:41:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:41:21] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[03:41:21] [Server thread/INFO]: Time elapsed: 588 ms
+[03:41:21] [Server thread/INFO]: Done (8.169s)! For help, type "help"
+[03:41:21] [Server thread/INFO]: Reder (/100.66.86.59:54149) lost connection: Disconnected
+[03:41:21] [Server thread/INFO]: MarceX (/100.64.199.21:52834) lost connection: Disconnected
+[03:41:24] [Server thread/INFO]: MarceX[/100.64.199.21:52836] logged in with entity id 38 at (94.12327787456627, 59.125, -13.237500011920929)
+[03:41:24] [Server thread/INFO]: Loading config from file...
+[03:41:24] [Server thread/INFO]: MarceX joined the game
+[03:41:29] [Server thread/INFO]: _jose_diaz_[/100.64.45.92:58875] logged in with entity id 212 at (78.95090418782083, 58.0, -6.794021934377246)
+[03:41:29] [Server thread/INFO]: Loading config from file...
+[03:41:29] [Server thread/INFO]: _jose_diaz_ joined the game
+[03:41:37] [Server thread/INFO]: Reder[/100.66.86.59:54158] logged in with entity id 217 at (92.61952023147495, 59.0, -11.776316727982497)
+[03:41:37] [Server thread/INFO]: Loading config from file...
+[03:41:37] [Server thread/INFO]: Reder joined the game
+[03:42:05] [Server thread/INFO]: Reder was killed
+[03:42:05] [Server thread/INFO]: [MarceX: Killed Reder]
+[03:42:10] [Server thread/INFO]: MarceX was killed
+[03:42:10] [Server thread/INFO]: [Reder: Killed MarceX]
+[03:42:14] [Server thread/INFO]: _jose_diaz_ was killed
+[03:42:14] [Server thread/INFO]: Reder was killed
+[03:42:14] [Server thread/INFO]: MarceX was killed
+[03:42:14] [Server thread/INFO]: [MarceX: Killed 3 entities]
+[03:42:17] [Server thread/INFO]: MarceX was killed
+[03:42:17] [Server thread/INFO]: [Reder: Killed MarceX]
+[03:42:38] [Server thread/INFO]: [Reder: Set own game mode to Creative Mode]
+[03:44:27] [Server thread/INFO]: MarceX has made the advancement [Fishy Business]
+[03:45:09] [Server thread/INFO]: [Reder: Set own game mode to Survival Mode]
+[03:56:00] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to -1705.500000, -38.000000, 1228.500000]
+[03:56:00] [Server thread/INFO]: _jose_diaz_ has made the advancement [Eye Spy]
+[03:56:10] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[03:57:56] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[03:57:56] [Server thread/INFO]: Reder has made the advancement [Eye Spy]
+[03:59:11] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:01:50] [Server thread/INFO]: [Reder: Teleported Reder to 72.500000, 64.000000, -11.500000]
+[04:02:36] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:03:03] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:06:42] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:08:01] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:08:16] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:08:31] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:09:50] [Server thread/INFO]: MarceX was killed
+[04:09:50] [Server thread/INFO]: [MarceX: Killed MarceX]
+[04:10:36] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:11:01] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:11:38] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:11:41] [Server thread/INFO]: Reder fell from a high place
+[04:11:48] [Server thread/WARN]: _jose_diaz_ moved too quickly! -9.951136679269666,0.5,-1.0130795954082714
+[04:12:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-20, y=110, z=-3} class_2338{x=-20, y=109, z=-1}
+[04:12:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4332ms or 86 ticks behind
+[04:12:34] [Server thread/WARN]: MarceX moved too quickly! 0.06980488637760374,0.0,-10.141471115446784
+[04:12:34] [Server thread/WARN]: Reder moved too quickly! 0.9162336697321898,0.0,-10.244715244583379
+[04:12:34] [Server thread/INFO]: MarceX was killed
+[04:12:34] [Server thread/INFO]: [MarceX: Killed MarceX]
+[04:12:44] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[04:13:24] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:13:27] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:13:39] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:13:43] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:14:00] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:14:37] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:14:49] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:15:01] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:15:05] [Server thread/INFO]: Reder blew up
+[04:15:06] [Server thread/INFO]: _jose_diaz_ was doomed to fall
+[04:15:31] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:15:58] [Server thread/INFO]: [_jose_diaz_: Teleported 3 entities to -1686.500000, -41.000000, 1203.500000]
+[04:15:58] [Server thread/INFO]: [MarceX: Teleported _jose_diaz_ to _jose_diaz_]
+[04:16:11] [Server thread/INFO]: _jose_diaz_ has made the advancement [The End?]
+[04:16:17] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[04:16:18] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[04:16:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8530ms or 170 ticks behind
+[04:16:19] [Server thread/INFO]: MarceX has made the advancement [The End?]
+[04:16:20] [Server thread/INFO]: Reder has made the advancement [The End?]
+[04:17:06] [Server thread/INFO]: Reder was doomed to fall by Ender Dragon
+[04:17:10] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:19:06] [Server thread/INFO]: Reder fell from a high place
+[04:19:10] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:19:20] [Server thread/INFO]: Reder fell from a high place
+[04:19:23] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:19:26] [Server thread/INFO]: Reder fell from a high place
+[04:19:29] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:19:35] [Server thread/INFO]: _jose_diaz_ fell from a high place
+[04:19:35] [Server thread/INFO]: Reder fell from a high place
+[04:19:39] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:19:43] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:19:57] [Server thread/INFO]: [Not Secure] <Reder> T
+[04:20:05] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:20:28] [Server thread/INFO]: _jose_diaz_ was doomed to fall by Ender Dragon
+[04:20:32] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:20:50] [Server thread/INFO]: MarceX fell from a high place
+[04:20:55] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:22:12] [Server thread/INFO]: _jose_diaz_ has made the advancement [Free the End]
+[04:22:34] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:23:06] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:23:09] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:23:13] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:23:18] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:23:37] [Server thread/INFO]: _jose_diaz_ has reached the goal [The Next Generation]
+[04:23:48] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:23:54] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:24:31] [Server thread/INFO]: _jose_diaz_ has made the advancement [Remote Getaway]
+[04:24:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2235ms or 44 ticks behind
+[04:24:46] [Server thread/INFO]: Reder has made the advancement [Remote Getaway]
+[04:24:48] [Server thread/INFO]: Reder fell from a high place
+[04:24:52] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:24:54] [Server thread/INFO]: MarceX has made the advancement [Remote Getaway]
+[04:26:50] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:26:51] [Server thread/INFO]: MarceX fell from a high place
+[04:26:54] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:26:57] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:27:09] [Server thread/INFO]: _jose_diaz_ didn't want to live in the same world as MarceX
+[04:27:15] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:27:30] [Server thread/INFO]: _jose_diaz_ fell out of the world
+[04:27:34] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:27:50] [Server thread/INFO]: _jose_diaz_ fell out of the world
+[04:27:52] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:27:56] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:27:56] [Server thread/INFO]: _jose_diaz_ fell from a high place
+[04:28:00] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:28:16] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:28:16] [Server thread/INFO]: MarceX fell from a high place
+[04:28:19] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:28:22] [Server thread/INFO]: Reder fell out of the world
+[04:28:27] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:28:59] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:28:59] [Server thread/INFO]: MarceX fell from a high place
+[04:29:01] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:29:02] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:31:11] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:33:58] [Server thread/INFO]: Locating element minecraft:end_city took 144 ms
+[04:34:40] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:35:17] [Server thread/INFO]: Locating element minecraft:end_city took 338 ms
+[04:35:28] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to -1167.500000, 58.000000, -1967.500000]
+[04:35:30] [Server thread/WARN]: _jose_diaz_ moved too quickly! 0.0,-10.80652611000901,0.0
+[04:35:31] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:35:31] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:35:31] [Server thread/INFO]: _jose_diaz_ was doomed to fall
+[04:35:36] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to -1167.500000, 59.875000, -1967.500000]
+[04:35:39] [Server thread/WARN]: Reder moved too quickly! 8.382286185829798,5.024424088213685,2.6518386291220395
+[04:35:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2903ms or 58 ticks behind
+[04:35:44] [Server thread/INFO]: [_jose_diaz_: Teleported 3 entities to -1686.500000, -41.000000, 1203.500000]
+[04:35:56] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to -1167.500000, 49.000000, -1967.500000]
+[04:35:58] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:36:00] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:36:25] [Server thread/INFO]: _jose_diaz_ fell from a high place
+[04:36:29] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:37:02] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:37:23] [Server thread/INFO]: _jose_diaz_ has made the advancement [The City at the End of the Game]
+[04:37:30] [Server thread/INFO]: MarceX has made the advancement [The City at the End of the Game]
+[04:37:42] [Server thread/INFO]: Reder has made the advancement [The City at the End of the Game]
+[04:38:19] [Server thread/INFO]: _jose_diaz_ was slain by Shulker
+[04:38:22] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:38:53] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:38:54] [Server thread/INFO]: MarceX fell from a high place
+[04:38:57] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:39:05] [Server thread/WARN]: _jose_diaz_ moved too quickly! 0.10202051388978362,-10.529957599235843,0.10819144515903645
+[04:39:10] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:39:10] [Server thread/INFO]: _jose_diaz_ fell from a high place
+[04:39:14] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:39:22] [Server thread/INFO]: _jose_diaz_ fell out of the world
+[04:39:26] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:39:27] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:39:28] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:39:28] [Server thread/INFO]: MarceX didn't want to live in the same world as Reder
+[04:39:30] [Server thread/INFO]: _jose_diaz_ fell out of the world
+[04:39:31] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:39:35] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to Reder]
+[04:39:36] [Server thread/INFO]: MarceX fell out of the world
+[04:39:42] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to Reder]
+[04:39:43] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[04:39:46] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[04:39:47] [Server thread/INFO]: MarceX fell from a high place
+[04:39:50] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[04:39:59] [Server thread/INFO]: MarceX has reached the goal [Sky's the Limit]
+[04:41:45] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:42:14] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:42:15] [Server thread/INFO]: Reder fell from a high place
+[04:42:18] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:42:32] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[04:42:43] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[04:42:45] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to Reder]
+[04:42:46] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[04:42:50] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to Reder]
+[04:42:50] [Server thread/INFO]: _jose_diaz_ fell from a high place
+[04:42:50] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[04:42:56] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to Reder]
+[04:43:22] [Server thread/INFO]: [Reder: Teleported Reder to 72.500000, 64.000000, -11.500000]
+[04:43:34] [Server thread/INFO]: [Reder: Teleported MarceX to 3000.500000, 90.000000, 4990.500000]
+[04:43:35] [Server thread/INFO]: MarceX has made the advancement [Desolation]
+[04:43:38] [Server thread/INFO]: MarceX fell out of the world
+[04:43:40] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 0.500000, 79.955809, 0.500000]
+[04:43:45] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to Reder]
+[04:43:47] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[04:43:53] [Server thread/INFO]: [Reder: Teleported Reder to 3000.500000, 90.000000, 4990.500000]
+[04:43:53] [Server thread/INFO]: Reder has made the advancement [Desolation]
+[04:43:59] [Server thread/INFO]: Reder fell out of the world
+[04:43:59] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[04:44:02] [Server thread/INFO]: MarceX fell out of the world
+[04:44:04] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:44:12] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:44:14] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:44:29] [Server thread/INFO]: [Reder: Teleported Reder to 3000.500000, 90.000000, 499.500000]
+[04:44:33] [Server thread/WARN]: Reder moved too quickly! 0.0,-10.806526110008988,0.0
+[04:44:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4556ms or 91 ticks behind
+[04:44:34] [Server thread/INFO]: [Not Secure] <MarceX> 3000 150 4990
+[04:44:38] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 76133.500000, 53.000000, 7615.500000]
+[04:44:40] [Server thread/WARN]: Reder moved too quickly! 0.0,-19.58261420064416,0.0
+[04:44:40] [Server thread/WARN]: _jose_diaz_ moved too quickly! 0.0,-10.80652611000901,0.0
+[04:44:40] [Server thread/INFO]: Reder fell out of the world
+[04:44:46] [Server thread/INFO]: _jose_diaz_ fell out of the world
+[04:44:46] [Server thread/INFO]: [MarceX: Teleported MarceX to 3000.500000, 150.000000, 4990.500000]
+[04:44:49] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:44:52] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:44:53] [Server thread/INFO]: _jose_diaz_ has made the advancement [Desolation]
+[04:44:55] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:45:30] [Server thread/INFO]: _jose_diaz_ fell from a high place
+[04:45:33] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:45:47] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to Reder]
+[04:46:20] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[04:46:23] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:46:43] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:47:16] [Server thread/INFO]: Locating element minecraft:end_city took 0 ms
+[04:47:38] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 2976.500000, 144.000000, 4624.500000]
+[04:47:40] [Server thread/WARN]: _jose_diaz_ moved too quickly! 0.0,-10.806526110009003,0.0
+[04:47:42] [Server thread/INFO]: _jose_diaz_ fell from a high place
+[04:47:47] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:48:00] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 2976.500000, 100.000000, 4624.500000]
+[04:48:01] [Server thread/INFO]: _jose_diaz_ fell from a high place
+[04:48:05] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:48:10] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 2976.500000, 50.000000, 4624.500000]
+[04:48:21] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 2976.500000, 70.000000, 4624.500000]
+[04:48:24] [Server thread/INFO]: Locating element minecraft:end_city took 0 ms
+[04:49:15] [Server thread/INFO]: [Reder: Teleported Reder to 2976.500000, 72.000000, 4624.500000]
+[04:49:39] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:50:38] [Server thread/INFO]: _jose_diaz_ was doomed to fall by Shulker
+[04:50:45] [Server thread/INFO]: [Reder: Teleported Reder to 2.500000, 90.000000, 4990.500000]
+[04:50:47] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to Reder]
+[04:50:49] [Server thread/WARN]: _jose_diaz_ moved too quickly! 1.2429626140180066,-10.806526110008988,0.0
+[04:50:57] [Server thread/INFO]: Reder was doomed to fall by Shulker
+[04:51:05] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:51:08] [Server thread/INFO]: [Reder: Teleported Reder to 2.500000, 90.000000, 4990.500000]
+[04:51:11] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:52:16] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:52:19] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:52:21] [Server thread/INFO]: Reder fell from a high place
+[04:52:24] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:52:44] [Server thread/INFO]: Reder has reached the goal [Sky's the Limit]
+[04:53:49] [Server thread/INFO]: MarceX fell from a high place
+[04:53:52] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:55:03] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77641.500000, 113.207428, 776123.500000]
+[04:55:12] [Server thread/WARN]: _jose_diaz_ moved too quickly! 0.0,-13.432083393420456,0.0
+[04:55:14] [Server thread/INFO]: _jose_diaz_ was doomed to fall by Enderman
+[04:55:18] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:55:19] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to Reder]
+[04:55:25] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:55:27] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77641.500000, 20.000000, 776123.500000]
+[04:55:28] [Server thread/WARN]: Reder moved too quickly! 0.0,-10.811596629254794,0.0
+[04:55:28] [Server thread/WARN]: _jose_diaz_ moved too quickly! 0.0,-10.80652611000901,0.0
+[04:55:30] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:55:31] [Server thread/INFO]: Reder was doomed to fall by Shulker
+[04:55:32] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77641.500000, 50.000000, 776123.500000]
+[04:55:33] [Server thread/INFO]: _jose_diaz_ fell from a high place
+[04:55:34] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:55:37] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to Reder]
+[04:55:39] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77641.500000, 50.000000, 776123.500000]
+[04:55:58] [Server thread/INFO]: Locating element minecraft:end_city took 0 ms
+[04:56:02] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77472.500000, 46.000000, 775856.500000]
+[04:56:08] [Server thread/INFO]: [Reder: Teleported Reder to 400.500000, 72.000000, 2199.500000]
+[04:56:08] [Server thread/WARN]: MarceX moved too quickly! -7.580454807502292,-3.317139661330529,15.616593602774628
+[04:56:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6207ms or 124 ticks behind
+[04:56:22] [Server thread/WARN]: MarceX moved too quickly! -7.350457996954589,-7.128856353488743,14.025097410759372
+[04:56:23] [Server thread/INFO]: _jose_diaz_ suffocated in a wall
+[04:56:23] [Server thread/INFO]: Reder suffocated in a wall
+[04:56:31] [Server thread/INFO]: [Reder: Teleported Reder to 400.500000, 72.000000, 2199.500000]
+[04:56:32] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to Reder]
+[04:56:36] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:56:37] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[04:56:44] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77472.500000, 50.000000, 775856.500000]
+[04:56:51] [Server thread/INFO]: [Reder: Teleported Reder to 400.500000, 72.000000, 2199.500000]
+[04:56:51] [Server thread/WARN]: MarceX moved too quickly! -15.464613878826356,-2.704317170463405,7.882988635876245
+[04:56:53] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77472.500000, 70.000000, 775856.500000]
+[04:57:03] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77472.500000, 80.000000, 775856.500000]
+[04:57:11] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77472.500000, 100.000000, 775856.500000]
+[04:57:21] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77472.500000, 120.000000, 775856.500000]
+[04:57:29] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:57:30] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77472.500000, 150.000000, 775856.500000]
+[04:57:32] [Server thread/INFO]: Locating element minecraft:end_city took 425 ms
+[04:57:32] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:57:35] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:57:36] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:57:37] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:57:37] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:57:38] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:57:40] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to 77472.500000, 300.000000, 775856.500000]
+[04:57:43] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[04:57:50] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:57:52] [Server thread/INFO]: [Reder: Teleported Reder to 64.500000, 72.000000, 2128.500000]
+[04:57:58] [Server thread/WARN]: MarceX moved too quickly! -1.1453772884997306,-8.718401038907984,-15.271293776342645
+[04:57:58] [Server thread/WARN]: _jose_diaz_ moved too quickly! -1.0078060095838737,0.0,-10.03562547126785
+[04:57:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5985ms or 119 ticks behind
+[04:58:50] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:58:51] [Server thread/INFO]: MarceX fell from a high place
+[04:58:54] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[04:59:16] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[04:59:21] [Server thread/INFO]: _jose_diaz_ has reached the goal [Sky's the Limit]
+[05:00:01] [Server thread/INFO]: _jose_diaz_ was killed while fighting MarceX
+[05:00:01] [Server thread/INFO]: [_jose_diaz_: Killed _jose_diaz_]
+[05:01:03] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[05:01:25] [Server thread/INFO]: _jose_diaz_ was killed
+[05:01:25] [Server thread/INFO]: [_jose_diaz_: Killed _jose_diaz_]
+[05:01:29] [Server thread/INFO]: MarceX was slain by Shulker
+[05:01:32] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:01:36] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[05:01:49] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[05:02:36] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:02:41] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[05:04:59] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[05:08:42] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:13:18] [Server thread/WARN]: MarceX moved too quickly! 9.758711794905679,-2.650850550142785,4.653690894040409
+[05:15:09] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:16:07] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[05:16:31] [Server thread/INFO]: [_jose_diaz_: Teleported _jose_diaz_ to MarceX]
+[05:19:07] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:19:50] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:19:54] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:20:30] [Server thread/INFO]: _jose_diaz_ was slain by Zombie
+[05:20:36] [Server thread/WARN]: MarceX moved too quickly! 3.3715794482793626,0.756759288177264,9.442386641284287
+[05:20:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2328ms or 46 ticks behind
+[05:21:03] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:21:03] [Server thread/INFO]: Reder was slain by Zombie
+[05:21:03] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[05:21:06] [Server thread/INFO]: [Reder: Teleported Reder to MarceX]
+[05:22:12] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:22:15] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:22:47] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:22:47] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:23:35] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:23:37] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:23:47] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:23:48] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:24:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=129, y=-42, z=-57} class_2338{x=222, y=96, z=-68}
+[05:24:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=129, y=-42, z=-57} class_2338{x=222, y=96, z=-68}
+[05:24:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=129, y=-42, z=-57} class_2338{x=222, y=96, z=-68}
+[05:24:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=129, y=-42, z=-57} class_2338{x=222, y=96, z=-68}
+[05:24:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=129, y=-42, z=-57} class_2338{x=222, y=96, z=-68}
+[05:24:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=129, y=-42, z=-57} class_2338{x=222, y=96, z=-68}
+[05:24:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=129, y=-42, z=-57} class_2338{x=222, y=96, z=-68}
+[05:24:04] [Server thread/INFO]: _jose_diaz_ has made the advancement [Hidden in the Depths]
+[05:24:19] [Server thread/INFO]: MarceX has made the advancement [Hidden in the Depths]
+[05:24:30] [Server thread/INFO]: Reder has made the advancement [Hidden in the Depths]
+[05:28:18] [Server thread/INFO]: [STDOUT]: class_1639['Wither Skeleton'/45100, l='ServerLevel[world]', x=106.50, y=73.00, z=-315.50]
+[05:28:26] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:28:33] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:29:00] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:29:49] [Server thread/WARN]: MarceX moved too quickly! 2.653504576939529,2.8327811192036805,-17.487034529912762
+[05:30:21] [Server thread/INFO]: _jose_diaz_ was killed
+[05:30:21] [Server thread/INFO]: [_jose_diaz_: Killed _jose_diaz_]
+[05:31:21] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:31:25] [Server thread/WARN]: _jose_diaz_ moved too quickly! -14.750475021931884,0.9664817750606005,-9.490957382205762
+[05:31:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3881ms or 77 ticks behind
+[05:31:32] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:32:03] [Server thread/WARN]: _jose_diaz_ moved too quickly! -12.503495576905152,1.021134942032539,12.678650874982509
+[05:32:51] [Server thread/INFO]: [_jose_diaz_: Gave 2 [Sunflower] to _jose_diaz_]
+[05:33:18] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:33:21] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:25] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:33:25] [Server thread/INFO]: Reder was doomed to fall by Zombie
+[05:33:30] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:33:39] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:41] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:42] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:43] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:44] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:45] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:45] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:47] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:47] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:49] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:50] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:50] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:51] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:52] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:53] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:54] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:55] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:55] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:56] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:57] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:57] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:58] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:33:59] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:34:00] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:34:01] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:34:02] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:34:03] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:34:04] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:34:06] [Server thread/INFO]: _jose_diaz_ fell out of the world
+[05:34:06] [Server thread/INFO]: MarceX fell out of the world
+[05:34:13] [Server thread/INFO]: [MarceX: Teleported MarceX to Reder]
+[05:34:38] [Server thread/INFO]: [Reder: Teleported Reder to _jose_diaz_]
+[05:34:38] [Server thread/INFO]: Reder fell from a high place
+[05:34:41] [Server thread/INFO]: [MarceX: Teleported MarceX to _jose_diaz_]
+[05:34:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2177ms or 43 ticks behind
+[05:35:01] [Server thread/INFO]: _jose_diaz_ lost connection: Disconnected
+[05:35:01] [Server thread/INFO]: _jose_diaz_ left the game
+[05:35:01] [Server thread/INFO]: [STDOUT]: class_1639['Wither Skeleton'/49709, l='ServerLevel[world]', x=91.50, y=49.00, z=-114.50]
+[05:35:03] [Server thread/INFO]: Reder lost connection: Disconnected
+[05:35:03] [Server thread/INFO]: Reder left the game
+[05:35:16] [Server thread/INFO]: MarceX was killed
+[05:35:16] [Server thread/INFO]: [MarceX: Killed MarceX]
+[05:35:21] [Server thread/INFO]: MarceX lost connection: Disconnected
+[05:35:21] [Server thread/INFO]: MarceX left the game
+[05:35:22] [Server thread/INFO]: Stopping the server
+[05:35:22] [Server thread/INFO]: Stopping server
+[05:35:22] [Server thread/INFO]: Saving players
+[05:35:22] [Server thread/INFO]: Saving worlds
+[05:35:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:35:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/mining_dims:sky_dim
+[05:35:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05:35:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/mining_dims:climbing_dim
+[05:35:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/mining_dims:mining_dim
+[05:35:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/mining_dims:hunting_dim
+[05:35:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05:35:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/mining_dims:caving_dim
+[05:35:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/mining_dims:nethering_dim
+[05:35:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:35:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (sky_dim): All chunks are saved
+[05:35:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:35:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (climbing_dim): All chunks are saved
+[05:35:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (mining_dim): All chunks are saved
+[05:35:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (hunting_dim): All chunks are saved
+[05:35:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:35:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (caving_dim): All chunks are saved
+[05:35:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (nethering_dim): All chunks are saved
+[05:35:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:35:34] [Server thread/INFO]: Dispatching unloading event for config at tradingpost-server.toml
